@@ -43,6 +43,7 @@ All datasets are public. See `DATA.md` for download links and the expected folde
 ```bash
 python scripts/reproduce_tables.py      # Tables 2-3, Tables S3-S4, damage-detection AUROC, PH3 correlation
 python scripts/make_figures.py          # Fig. 2
+python scripts/reproduce_table_s5.py    # Table S5 (all official-code methods on the four banks)
 ```
 
 Means and medians are deterministic and match the paper exactly. Bootstrap intervals use B = 5000 resamples with seed 0; they agree with the paper to Monte Carlo error (about ±0.05 points).
@@ -62,7 +63,7 @@ Means and medians are deterministic and match the paper exactly. Bootstrap inter
 | kNN scalability (§5.5, Table S24) | Benchmark on random data | `studies/bench_knn_scaling.py` (output `results/tables/bench_knn.json`) | — |
 | Table 3(b), revision study 3, rules R8–R10, alternative gates, distance ratio (Tables S15–S17) | Revision study 3 (`revision3_prereg_p1.md`) | `studies/p1_rev3.py` | 255–259 |
 | Dataset inventory (Table S1) | — | `studies/p1_inventory.py` | 250 |
-| Bank comparison with official-code methods (Table S5), confidence-driven law (Section S5) | `benchmark_prereg_v2.md`, `paper1_v2_prereg.md` | earlier studies; see `results/tables` | 200–209, 130–139 |
+| Bank comparison with all 11 official-code methods (Table S5, incl. Amendment-2 re-runs), confidence-driven law (Section S5) | `benchmark_prereg_v2.md`, `paper1_v2_prereg.md` | `rat/mv_bench.py`; rows in `results/tables/bank_benchmark_*.json.gz` (`scripts/condense_bankbench.py`); table: `scripts/reproduce_table_s5.py` | 200–209, 130–139 |
 
 Example (run from `studies/`, which is where the scheduler expects the scripts):
 
