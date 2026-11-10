@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "Validity, not confidence: a plug-in trust gate for robust multimodal fusion under unseen corruption (code)"
+repository-code: "https://github.com/ssaharan-bit/rat-trust-gate"
+license: MIT
+authors:
+  - family-names: Saharan
+    given-names: Sanjeev
+    orcid: "https://orcid.org/0009-0008-9676-1571"
+    affiliation: "Department of Computer Science and Engineering, Indian Institute of Technology Roorkee"
+  - family-names: Balasubramanian
+    given-names: R.
+    orcid: "https://orcid.org/0000-0001-6277-6267"
+    affiliation: "Department of Computer Science and Engineering, Indian Institute of Technology Roorkee"
+preferred-citation:
+  type: article
+  title: "Validity, not confidence: a plug-in trust gate for robust multimodal fusion under unseen corruption"
+  journal: "Pattern Recognition Letters"
+  status: submitted
+  authors:
+    - family-names: Saharan
+      given-names: Sanjeev
+    - family-names: Balasubramanian
+      given-names: R.

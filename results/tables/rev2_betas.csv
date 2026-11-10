@@ -1,0 +1,16 @@
+c,law,mean,dam,intact
+clean,fusion,1.009,,1.009
+clean,rat,1.006,,1.006
+clean,recal,1.014,,1.014
+seen,fusion,0.99,0.888,1.008
+seen,rat,0.983,0.867,1.006
+seen,recal,0.991,0.88,1.014
+swap,fusion,1.105,1.141,1.099
+swap,rat,1.037,1.077,1.031
+swap,recal,1.049,1.087,1.043
+unseen,fusion,0.869,0.453,1.009
+unseen,rat,0.864,0.438,1.007
+unseen,recal,0.874,0.457,1.014
+unseen_all,fusion,0.671,0.603,0.74
+unseen_all,rat,0.827,0.72,0.933
+unseen_all,recal,0.824,0.719,0.929

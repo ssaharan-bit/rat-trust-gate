@@ -1,0 +1,11 @@
+# Versions used for the paper (Ubuntu 22.04, CUDA 12.8, RTX 5090).
+# PyTorch 2.7 with CUDA 12.8 (the paper used the nightly build 2.7.0.dev20250310+cu128):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.7
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.0
+pandas==2.2.3
+transformers==5.3.0
+h5py
+matplotlib

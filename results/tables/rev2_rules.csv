@@ -1,0 +1,5 @@
+rule,estimate,lo,hi,outcome
+R4 equivalence recal vs shared (90% CI within ±0.3),-0.018188899117061667,-0.2228197109401772,0.17158043818688803,PASS
+R5 restored kNN − raw kNN > 0,-0.07400861478745056,-0.2757464167543472,0.1214871482563405,FAIL
+R6 AP combined − validity > 0 (PDF+MNL),0.1276,0.0748,0.1879,PASS
+"R7 sample-level anchor: clean cost −50%, unseen ≥80%",0.794,,,"PASS (clean cost −79%, unseen kept 109%)"

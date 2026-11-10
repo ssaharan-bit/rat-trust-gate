@@ -1,0 +1,20 @@
+{
+ "ds": "handwritten",
+ "seed": 251,
+ "rcal": 0.16,
+ "n_tr": 1280,
+ "n_cal": 320,
+ "n_te": 400,
+ "res": {
+  "C0_clean": {
+   "native": 98.5,
+   "rat": 98.25,
+   "beta_mean": 1.3141242153257215
+  },
+  "C3_unseen": {
+   "native": 97.25,
+   "rat": 97.5,
+   "beta_mean": 1.086030023366084
+  }
+ }
+}

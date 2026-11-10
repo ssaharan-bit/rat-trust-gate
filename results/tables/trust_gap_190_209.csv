@@ -1,0 +1,17 @@
+ds,rat_gain_confv2
+brca,0.304
+caltech20,1.067
+handwritten,0.375
+landuse,7.476
+leaves,4.667
+mosi,-1.443
+mustard,3.551
+outdoor,2.268
+pie,1.912
+rosmap,1.792
+scene15,6.767
+urfunny,1.276
+crema,2.837
+food,0.284
+milk,1.18
+sun,0.259

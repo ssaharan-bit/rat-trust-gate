@@ -1,0 +1,27 @@
+{
+ "note": "architectures built from configs (random weights); timing does not depend on weight values; fp16",
+ "dinov2-base|bs1": {
+  "p50": 3.0546805064659566,
+  "p95": 3.0694342858623713
+ },
+ "dinov2-base|bs64": {
+  "p50": 24.369451493839733,
+  "p95": 24.39355589885963
+ },
+ "bert-base-uncased|bs1": {
+  "p50": 1.6024905198719352,
+  "p95": 1.6329423553543165
+ },
+ "bert-base-uncased|bs64": {
+  "p50": 7.186659495346248,
+  "p95": 7.206897503056098
+ },
+ "wav2vec2-base|bs1": {
+  "p50": 1.842175013734959,
+  "p95": 1.8598125636344776
+ },
+ "wav2vec2-base|bs64": {
+  "p50": 26.984804484527558,
+  "p95": 27.011424960801378
+ }
+}

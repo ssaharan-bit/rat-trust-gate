@@ -1,0 +1,3 @@
+# Keep the hashed pre-registration documents byte-identical (see preregistration/SHA256SUMS).
+preregistration/** -text
+*.sh text eol=lf

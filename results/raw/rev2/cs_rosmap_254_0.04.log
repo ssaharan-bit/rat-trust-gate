@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/neelvarn/Documents/PhdCSE/paper1/baselines/mmdetection3d/tmc_gaps2/mvdiag/p1_calsize.py", line 37, in <module>
+    a = ap.parse_args(); r = main(a.ds, a.seed, a.rcal); json.dump(r, open(a.out, 'w'), indent=1); print(r)
+  File "/home/neelvarn/Documents/PhdCSE/paper1/baselines/mmdetection3d/tmc_gaps2/mvdiag/p1_calsize.py", line 26, in main
+    rx = RRT(dict(floor_mode='untempered'), seed).fit(Xtr, y[tr], Xcal, y[cal], K)
+  File "/home/neelvarn/Documents/PhdCSE/paper1/baselines/mmdetection3d/tmc_gaps2/mvbench/mv_method.py", line 264, in fit
+    self.laws.append(self._fit_law(q, z, yy))
+  File "/home/neelvarn/Documents/PhdCSE/paper1/baselines/mmdetection3d/tmc_gaps2/mvbench/mv_method.py", line 321, in _fit_law
+    iso = IsotonicRegression(increasing=False, out_of_bounds='clip').fit(cs, bs, sample_weight=ws)
+  File "/home/neelvarn/Documents/PhdCSE/paper1/baselines/mmdetection3d/lib/python3.10/site-packages/sklearn/base.py", line 1363, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/neelvarn/Documents/PhdCSE/paper1/baselines/mmdetection3d/lib/python3.10/site-packages/sklearn/isotonic.py", line 393, in fit
+    X = check_array(
+  File "/home/neelvarn/Documents/PhdCSE/paper1/baselines/mmdetection3d/lib/python3.10/site-packages/sklearn/utils/validation.py", line 1128, in check_array
+    raise ValueError(
+ValueError: Found array with 0 sample(s) (shape=(0,)) while a minimum of 1 is required.

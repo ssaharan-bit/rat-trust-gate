@@ -1,0 +1,15 @@
+{
+ "native": {
+  "ms_per_1000": 0.9877681732177734,
+  "peak_mb": 59.0458984375
+ },
+ "gated": {
+  "ms_per_1000": 88.49186897277832,
+  "peak_mb": 68.50244140625
+ },
+ "bank_mb": 26.16796875,
+ "law_params": 24,
+ "backbone_params": 2908200,
+ "throughput_native": 1012383.2971276853,
+ "throughput_gated": 11300.4732706868
+}

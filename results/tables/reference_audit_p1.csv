@@ -1,0 +1,44 @@
+key,year,venue,venue_class,doi,check
+baltrusaitis2019,2019,IEEE Transactions on Pattern Analysis and Machine Intelligence,Q1 journal,10.1109/tpami.2018.2798607,"verified vs Crossref (title, authors, year, volume, pages)"
+cao2014crema,2014,IEEE Transactions on Affective Computing,Q1 journal,10.1109/taffc.2014.2336244,"verified vs Crossref (title, authors, year, volume, pages)"
+cao2024pdf,2024,Proceedings of the 41st International Conference on Machine Learning (ICML),A* conference,,no DOI (ICLR/NeurIPS/ICML/NeurIPS D&B); title and authors match OpenAlex; pages not listed
+demarsico2023mer,2024,Engineering Applications of Artificial Intelligence,Q1 journal,10.1016/j.engappai.2023.107708,"verified vs Crossref (title, authors, year, volume, pages)"
+dong2024multiood,2024,Advances in Neural Information Processing Systems 37 (NeurIPS),A* conference,10.52202/079017-4106,"verified vs Crossref (title, authors, year, volume, pages)"
+gong2025mnl,2025,Advances in Neural Information Processing Systems (NeurIPS),A* conference,10.52202/085713-5125,"verified vs Crossref (title, authors, year, volume, pages)"
+guo2017,2017,Proceedings of the 34th International Conference on Machine Learning (ICML),A* conference,,no DOI (PMLR); pages 1321-1330 added from OpenAlex
+han2021tmc,2021,International Conference on Learning Representations (ICLR),A* conference,,no DOI (ICLR/NeurIPS/ICML/NeurIPS D&B); title and authors match OpenAlex; pages not listed
+han2022mmd,2022,2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),A* conference,10.1109/cvpr52688.2022.02005,"verified vs Crossref (title, authors, year, volume, pages)"
+han2023etmc,2023,IEEE Transactions on Pattern Analysis and Machine Intelligence,Q1 journal,10.1109/tpami.2022.3171983,"verified vs Crossref (title, authors, year, volume, pages)"
+he2026bml,2026,Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),A* conference,,no DOI; verified earlier against CVF/PMLR proceedings pages
+hendrycks2019,2019,International Conference on Learning Representations (ICLR),A* conference,,no DOI (ICLR/NeurIPS/ICML/NeurIPS D&B); title and authors match OpenAlex; pages not listed
+holm1979,1979,Scandinavian Journal of Statistics,Q1 journal,10.2307/4615733,DOI 10.2307/4615733 added (OpenAlex); volume/pages match
+huang2025tuned,2025,Proceedings of the AAAI Conference on Artificial Intelligence,A* conference,10.1609/aaai.v39i16.33914,"verified vs Crossref (title, authors, year, volume, pages)"
+inffus_lowq2026,2026,Information Fusion,Q1 journal,10.1016/j.inffus.2026.104437,"verified vs Crossref (title, authors, year, volume, pages)"
+lee2018maha,2018,Advances in Neural Information Processing Systems (NeurIPS),A* conference,,no DOI (ICLR/NeurIPS/ICML/NeurIPS D&B); title and authors match OpenAlex; pages not listed
+liang2021multibench,2021,Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks,A* conference,,no DOI (ICLR/NeurIPS/ICML/NeurIPS D&B); title and authors match OpenAlex; pages not listed
+liang2025tmcek,2025,Proceedings of the 42nd International Conference on Machine Learning (ICML),A* conference,,no DOI; verified earlier against CVF/PMLR proceedings pages
+prl_avemo2021,2021,Pattern Recognition Letters,Q1 journal,10.1016/j.patrec.2021.03.007,"verified vs Crossref (title, authors, year, volume, pages)"
+prl_conformal2022,2023,Pattern Recognition Letters,Q1 journal,10.1016/j.patrec.2022.11.002,"verified vs Crossref (title, authors, year, volume, pages)"
+prl_gatedemo2025,2025,Pattern Recognition Letters,Q1 journal,10.1016/j.patrec.2025.02.024,"verified vs Crossref (title, authors, year, volume, pages)"
+prl_mman2023,2024,Pattern Recognition Letters,Q1 journal,10.1016/j.patrec.2023.11.029,"verified vs Crossref (title, authors, year, volume, pages)"
+prl_mslesion2025,2026,Pattern Recognition Letters,Q1 journal,10.1016/j.patrec.2025.12.008,"verified vs Crossref (title, authors, year, volume, pages)"
+prl_oodbeta2025,2026,Pattern Recognition Letters,Q1 journal,10.1016/j.patrec.2025.11.015,"verified vs Crossref (title, authors, year, volume, pages)"
+prl_rgbt2025,2025,Pattern Recognition Letters,Q1 journal,10.1016/j.patrec.2025.05.005,"verified vs Crossref (title, authors, year, volume, pages)"
+prl_signmoe2026,2026,Pattern Recognition Letters,Q1 journal,10.1016/j.patrec.2026.08.003,"verified vs Crossref (title, authors, year, volume, pages)"
+prl_uqreg2024,2024,Pattern Recognition Letters,Q1 journal,10.1016/j.patrec.2024.09.011,"verified vs Crossref (title, authors, year, volume, pages)"
+sensoy2018,2018,Advances in Neural Information Processing Systems (NeurIPS),A* conference,,no DOI (ICLR/NeurIPS/ICML/NeurIPS D&B); title and authors match OpenAlex; pages not listed
+shen2026multiquad,2026,IEEE Transactions on Multimedia,Q1 journal,10.1109/TMM.2026.3701530,"verified vs Crossref (title, authors, year, volume, pages)"
+shi2026gtmc,2026,IEEE Transactions on Multimedia,Q1 journal,10.1109/tmm.2026.3651098,"verified vs Crossref (title, authors, year, volume, pages)"
+song2015sunrgbd,2015,2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR),A* conference,10.1109/cvpr.2015.7298655,"verified vs Crossref (title, authors, year, volume, pages)"
+sun2022knn,2022,Proceedings of the 39th International Conference on Machine Learning (ICML),A* conference,,no DOI (ICLR/NeurIPS/ICML/NeurIPS D&B); title and authors match OpenAlex; pages not listed
+sun2026qamoe,2026,Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence (IJCAI),A* conference,10.24963/ijcai.2026/766,"verified vs Crossref (title, authors, year, volume, pages)"
+tellamekala2023cold,2024,IEEE Transactions on Pattern Analysis and Machine Intelligence,Q1 journal,10.1109/TPAMI.2023.3325770,"verified vs Crossref (title, authors, year, volume, pages)"
+tian2020uno,2020,2020 IEEE International Conference on Robotics and Automation (ICRA),A conference (ICRA),10.1109/ICRA40945.2020.9197266,"verified vs Crossref (title, authors, year, volume, pages)"
+tschandl2026milk10k,2026,Journal of Investigative Dermatology,Q1 journal,10.1016/j.jid.2025.06.1594,"verified vs Crossref (title, authors, year, volume, pages)"
+wang2015food,2015,2015 IEEE International Conference on Multimedia \& Expo Workshops (ICMEW),workshop (dataset source),10.1109/icmew.2015.7169757,"verified vs Crossref (Crossref stores first author as ""Xin Wang"" in family field)"
+wang2018rgbd,2018,"ACM Transactions on Multimedia Computing, Communications, and Applications",Q1 journal,10.1145/3115932,"verified vs Crossref (title, authors, year, volume, pages)"
+wang2021mogonet,2021,Nature Communications,Q1 journal,10.1038/s41467-021-23774-w,"verified vs Crossref (title, authors, year, volume, pages)"
+wei2026udmf,2026,2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition -- Findings Track (CVPRF),A* conference,10.1109/CVPRF71909.2026.00599,"verified vs Crossref (title, authors, year, volume, pages)"
+xu2024rcml,2024,Proceedings of the AAAI Conference on Artificial Intelligence,A* conference,10.1609/aaai.v38i14.29546,"verified vs Crossref (title, authors, year, volume, pages)"
+zadrozny2002,2002,Proceedings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining,A* conference,10.1145/775047.775151,"verified vs Crossref (title, authors, year, volume, pages)"
+zhang2023qmf,2023,Proceedings of the 40th International Conference on Machine Learning (ICML),A* conference,,no DOI (ICLR/NeurIPS/ICML/NeurIPS D&B); title and authors match OpenAlex; pages not listed

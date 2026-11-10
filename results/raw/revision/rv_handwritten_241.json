@@ -1,0 +1,301 @@
+{
+ "ds": "handwritten",
+ "seed": 241,
+ "res": {
+  "PDF": {
+   "C0_clean": {
+    "native": 97.75,
+    "rat": 97.75,
+    "knn": 98.0,
+    "range": 98.0,
+    "mer": 97.5,
+    "knn+range": 98.0,
+    "knn+mer": 98.0,
+    "range+mer": 98.0,
+    "logistic": 98.0,
+    "fixed": 97.5,
+    "anchored": 97.75,
+    "bank256": 98.0,
+    "bank512": 97.75,
+    "bank1024": 97.75,
+    "bank2000": 97.75,
+    "bank4000": 97.75,
+    "rat_match": 0.0,
+    "recal": 97.75,
+    "beta_shared_vs_recal_maxdiff": 0.5592225401595872,
+    "fallbacks": [
+     "mer"
+    ]
+   },
+   "C1_rcml": {
+    "native": 97.0,
+    "rat": 95.0,
+    "knn": 94.75,
+    "range": 96.75,
+    "mer": 92.5,
+    "knn+range": 96.0,
+    "knn+mer": 94.25,
+    "range+mer": 95.5,
+    "logistic": 96.75,
+    "fixed": 92.5,
+    "anchored": 97.0,
+    "bank256": 96.0,
+    "bank512": 96.25,
+    "bank1024": 94.75,
+    "bank2000": 95.0,
+    "bank4000": 95.0,
+    "rat_match": 0.0,
+    "recal": 96.0,
+    "beta_shared_vs_recal_maxdiff": 0.5592225401595872,
+    "oracle": 98.25,
+    "fallbacks": [
+     "mer"
+    ]
+   },
+   "C3_unseen": {
+    "native": 96.5,
+    "rat": 96.75,
+    "knn": 97.0,
+    "range": 97.25,
+    "mer": 96.5,
+    "knn+range": 97.25,
+    "knn+mer": 97.0,
+    "range+mer": 97.25,
+    "logistic": 97.0,
+    "fixed": 96.75,
+    "anchored": 96.75,
+    "bank256": 97.25,
+    "bank512": 97.0,
+    "bank1024": 96.75,
+    "bank2000": 96.75,
+    "bank4000": 96.75,
+    "rat_match": 0.0,
+    "recal": 97.0,
+    "beta_shared_vs_recal_maxdiff": 0.5592225401595872,
+    "oracle": 97.25,
+    "fallbacks": [
+     "mer"
+    ]
+   },
+   "C4_swap": {
+    "native": 96.25,
+    "rat": 94.75,
+    "knn": 94.75,
+    "range": 96.25,
+    "mer": 92.5,
+    "knn+range": 94.75,
+    "knn+mer": 94.5,
+    "range+mer": 96.0,
+    "logistic": 96.5,
+    "fixed": 91.75,
+    "anchored": 96.25,
+    "bank256": 96.0,
+    "bank512": 96.0,
+    "bank1024": 94.75,
+    "bank2000": 94.75,
+    "bank4000": 94.75,
+    "rat_match": 0.0,
+    "recal": 95.25,
+    "beta_shared_vs_recal_maxdiff": 0.5592225401595872,
+    "oracle": 98.0,
+    "fallbacks": [
+     "mer"
+    ]
+   }
+  },
+  "MNL": {
+   "C0_clean": {
+    "native": 98.25,
+    "rat": 97.75,
+    "knn": 98.25,
+    "range": 97.75,
+    "mer": 97.5,
+    "knn+range": 97.75,
+    "knn+mer": 98.25,
+    "range+mer": 97.75,
+    "logistic": 98.0,
+    "fixed": 97.5,
+    "anchored": 98.0,
+    "bank256": 98.0,
+    "bank512": 98.25,
+    "bank1024": 97.75,
+    "bank2000": 97.75,
+    "bank4000": 97.75,
+    "rat_match": 0.0,
+    "recal": 98.25,
+    "beta_shared_vs_recal_maxdiff": 0.5999999999999999,
+    "fallbacks": [
+     "mer"
+    ]
+   },
+   "C1_rcml": {
+    "native": 97.5,
+    "rat": 96.0,
+    "knn": 95.75,
+    "range": 97.25,
+    "mer": 93.0,
+    "knn+range": 96.0,
+    "knn+mer": 95.25,
+    "range+mer": 96.25,
+    "logistic": 97.25,
+    "fixed": 92.5,
+    "anchored": 97.5,
+    "bank256": 96.25,
+    "bank512": 97.0,
+    "bank1024": 96.0,
+    "bank2000": 96.0,
+    "bank4000": 96.0,
+    "rat_match": 0.0,
+    "recal": 97.0,
+    "beta_shared_vs_recal_maxdiff": 0.5999999999999999,
+    "oracle": 98.25,
+    "fallbacks": [
+     "mer"
+    ]
+   },
+   "C3_unseen": {
+    "native": 96.75,
+    "rat": 97.25,
+    "knn": 97.5,
+    "range": 97.25,
+    "mer": 96.5,
+    "knn+range": 97.25,
+    "knn+mer": 97.5,
+    "range+mer": 97.25,
+    "logistic": 97.5,
+    "fixed": 96.5,
+    "anchored": 97.25,
+    "bank256": 97.25,
+    "bank512": 97.5,
+    "bank1024": 97.25,
+    "bank2000": 97.25,
+    "bank4000": 97.25,
+    "rat_match": 0.0,
+    "recal": 97.5,
+    "beta_shared_vs_recal_maxdiff": 0.5999999999999999,
+    "oracle": 97.25,
+    "fallbacks": [
+     "mer"
+    ]
+   },
+   "C4_swap": {
+    "native": 97.25,
+    "rat": 95.0,
+    "knn": 95.5,
+    "range": 96.75,
+    "mer": 93.0,
+    "knn+range": 95.25,
+    "knn+mer": 95.75,
+    "range+mer": 96.5,
+    "logistic": 97.0,
+    "fixed": 92.5,
+    "anchored": 97.0,
+    "bank256": 95.5,
+    "bank512": 97.0,
+    "bank1024": 94.75,
+    "bank2000": 95.0,
+    "bank4000": 95.0,
+    "rat_match": 0.0,
+    "recal": 97.0,
+    "beta_shared_vs_recal_maxdiff": 0.5999999999999999,
+    "oracle": 98.25,
+    "fallbacks": [
+     "mer"
+    ]
+   }
+  }
+ },
+ "err": {
+  "PDF": {
+   "rate": 0.065,
+   "validity": {
+    "auroc": 0.8937908496732025,
+    "ap": 0.25745718945660784,
+    "aurc": 0.009657361521881595
+   },
+   "knn_only": {
+    "auroc": 0.9045560240413182,
+    "ap": 0.2723888317096151,
+    "aurc": 0.008813968337920423
+   },
+   "1-msp": {
+    "auroc": 0.7291895196306961,
+    "ap": 0.16028123338180267,
+    "aurc": 0.026647202706718175
+   },
+   "entropy": {
+    "auroc": 0.7394847799259564,
+    "ap": 0.16912822707536604,
+    "aurc": 0.026069245236196956
+   },
+   "energy": {
+    "auroc": 0.6795300287947347,
+    "ap": 0.13937537986039528,
+    "aurc": 0.03577522063636918
+   },
+   "xmodal_jsd": {
+    "auroc": 0.9410422094245624,
+    "ap": 0.5424601324945101,
+    "aurc": 0.006460054409719896
+   }
+  },
+  "MNL": {
+   "rate": 0.06708333333333333,
+   "validity": {
+    "auroc": 0.8946720890814721,
+    "ap": 0.2651069745830772,
+    "aurc": 0.009871692260529641
+   },
+   "knn_only": {
+    "auroc": 0.9062760937530341,
+    "ap": 0.28244145655390807,
+    "aurc": 0.009088965545772125
+   },
+   "1-msp": {
+    "auroc": 0.713411876974803,
+    "ap": 0.12995198599169705,
+    "aurc": 0.028472307359415368
+   },
+   "entropy": {
+    "auroc": 0.7227550009848007,
+    "ap": 0.1399699735304247,
+    "aurc": 0.027873092113334438
+   },
+   "energy": {
+    "auroc": 0.6672344297448671,
+    "ap": 0.13369095042824353,
+    "aurc": 0.03802130090031553
+   },
+   "xmodal_jsd": {
+    "auroc": 0.9458165385500958,
+    "ap": 0.5620659546915228,
+    "aurc": 0.0065257049618861074
+   }
+  }
+ },
+ "atyp": {
+  "PDF": {
+   "frac": 0.35,
+   "n": 140,
+   "native_flag": 94.28571428571428,
+   "gated_flag": 94.28571428571428,
+   "native_rest": 99.61538461538461,
+   "gated_rest": 99.61538461538461,
+   "beta_flag": 1.1519581104187346
+  },
+  "MNL": {
+   "frac": 0.35,
+   "n": 140,
+   "native_flag": 95.0,
+   "gated_flag": 94.28571428571428,
+   "native_rest": 100.0,
+   "gated_rest": 99.61538461538461,
+   "beta_flag": 1.1519581104187346
+  }
+ },
+ "time": {
+  "PDF": 641.3022632598877,
+  "MNL": 1010.4608595371246,
+  "total": 1662.6164598464966
+ }
+}

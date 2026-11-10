@@ -1,0 +1,301 @@
+{
+ "ds": "handwritten",
+ "seed": 243,
+ "res": {
+  "PDF": {
+   "C0_clean": {
+    "native": 98.75,
+    "rat": 99.25,
+    "knn": 98.75,
+    "range": 99.0,
+    "mer": 99.0,
+    "knn+range": 99.0,
+    "knn+mer": 99.0,
+    "range+mer": 98.75,
+    "logistic": 98.5,
+    "fixed": 99.0,
+    "anchored": 99.0,
+    "bank256": 99.5,
+    "bank512": 99.25,
+    "bank1024": 99.25,
+    "bank2000": 99.25,
+    "bank4000": 99.25,
+    "rat_match": 0.0,
+    "recal": 99.0,
+    "beta_shared_vs_recal_maxdiff": 0.9061435101818034,
+    "fallbacks": [
+     "mer"
+    ]
+   },
+   "C1_rcml": {
+    "native": 98.0,
+    "rat": 98.5,
+    "knn": 97.0,
+    "range": 96.25,
+    "mer": 97.0,
+    "knn+range": 98.75,
+    "knn+mer": 99.0,
+    "range+mer": 95.75,
+    "logistic": 97.75,
+    "fixed": 97.25,
+    "anchored": 98.0,
+    "bank256": 99.0,
+    "bank512": 98.75,
+    "bank1024": 98.75,
+    "bank2000": 98.5,
+    "bank4000": 98.5,
+    "rat_match": 0.0,
+    "recal": 97.75,
+    "beta_shared_vs_recal_maxdiff": 0.9061435101818034,
+    "oracle": 98.75,
+    "fallbacks": [
+     "mer"
+    ]
+   },
+   "C3_unseen": {
+    "native": 97.75,
+    "rat": 98.0,
+    "knn": 97.75,
+    "range": 97.75,
+    "mer": 97.0,
+    "knn+range": 97.75,
+    "knn+mer": 97.75,
+    "range+mer": 97.5,
+    "logistic": 97.5,
+    "fixed": 96.75,
+    "anchored": 98.0,
+    "bank256": 98.0,
+    "bank512": 97.5,
+    "bank1024": 97.75,
+    "bank2000": 98.0,
+    "bank4000": 98.0,
+    "rat_match": 0.0,
+    "recal": 98.75,
+    "beta_shared_vs_recal_maxdiff": 0.9762237078075807,
+    "oracle": 98.5,
+    "fallbacks": [
+     "mer"
+    ]
+   },
+   "C4_swap": {
+    "native": 97.75,
+    "rat": 98.25,
+    "knn": 97.75,
+    "range": 95.75,
+    "mer": 97.0,
+    "knn+range": 98.5,
+    "knn+mer": 98.5,
+    "range+mer": 96.0,
+    "logistic": 97.5,
+    "fixed": 98.0,
+    "anchored": 98.0,
+    "bank256": 98.75,
+    "bank512": 98.75,
+    "bank1024": 98.5,
+    "bank2000": 98.25,
+    "bank4000": 98.25,
+    "rat_match": 0.0,
+    "recal": 97.75,
+    "beta_shared_vs_recal_maxdiff": 0.9061435101818034,
+    "oracle": 98.75,
+    "fallbacks": [
+     "mer"
+    ]
+   }
+  },
+  "MNL": {
+   "C0_clean": {
+    "native": 99.0,
+    "rat": 99.25,
+    "knn": 99.25,
+    "range": 99.0,
+    "mer": 99.25,
+    "knn+range": 99.0,
+    "knn+mer": 99.25,
+    "range+mer": 99.0,
+    "logistic": 98.75,
+    "fixed": 99.25,
+    "anchored": 99.5,
+    "bank256": 99.0,
+    "bank512": 98.75,
+    "bank1024": 99.0,
+    "bank2000": 99.25,
+    "bank4000": 99.25,
+    "rat_match": 0.0,
+    "recal": 99.0,
+    "beta_shared_vs_recal_maxdiff": 1.3240345073341446,
+    "fallbacks": [
+     "mer"
+    ]
+   },
+   "C1_rcml": {
+    "native": 98.5,
+    "rat": 99.0,
+    "knn": 99.5,
+    "range": 98.0,
+    "mer": 98.75,
+    "knn+range": 99.0,
+    "knn+mer": 99.5,
+    "range+mer": 95.75,
+    "logistic": 98.5,
+    "fixed": 98.75,
+    "anchored": 98.25,
+    "bank256": 98.75,
+    "bank512": 98.5,
+    "bank1024": 98.75,
+    "bank2000": 99.0,
+    "bank4000": 99.0,
+    "rat_match": 0.0,
+    "recal": 98.25,
+    "beta_shared_vs_recal_maxdiff": 1.3240345073341446,
+    "oracle": 99.25,
+    "fallbacks": [
+     "mer"
+    ]
+   },
+   "C3_unseen": {
+    "native": 98.5,
+    "rat": 98.5,
+    "knn": 98.0,
+    "range": 97.25,
+    "mer": 97.0,
+    "knn+range": 98.25,
+    "knn+mer": 98.25,
+    "range+mer": 97.25,
+    "logistic": 98.0,
+    "fixed": 97.25,
+    "anchored": 98.75,
+    "bank256": 98.25,
+    "bank512": 98.0,
+    "bank1024": 98.25,
+    "bank2000": 98.5,
+    "bank4000": 98.5,
+    "rat_match": 0.0,
+    "recal": 98.75,
+    "beta_shared_vs_recal_maxdiff": 1.2665480427046263,
+    "oracle": 98.75,
+    "fallbacks": [
+     "mer"
+    ]
+   },
+   "C4_swap": {
+    "native": 98.0,
+    "rat": 98.75,
+    "knn": 98.75,
+    "range": 97.5,
+    "mer": 99.0,
+    "knn+range": 99.0,
+    "knn+mer": 98.75,
+    "range+mer": 97.0,
+    "logistic": 98.0,
+    "fixed": 99.25,
+    "anchored": 98.25,
+    "bank256": 98.75,
+    "bank512": 98.5,
+    "bank1024": 98.5,
+    "bank2000": 98.75,
+    "bank4000": 98.75,
+    "rat_match": 0.0,
+    "recal": 97.75,
+    "beta_shared_vs_recal_maxdiff": 1.3240345073341446,
+    "oracle": 98.75,
+    "fallbacks": [
+     "mer"
+    ]
+   }
+  }
+ },
+ "err": {
+  "PDF": {
+   "rate": 0.06875,
+   "validity": {
+    "auroc": 0.909550538946512,
+    "ap": 0.29845324118552663,
+    "aurc": 0.008843676694635485
+   },
+   "knn_only": {
+    "auroc": 0.9131760558606196,
+    "ap": 0.30714465531724927,
+    "aurc": 0.009167639801838056
+   },
+   "1-msp": {
+    "auroc": 0.7754213273676362,
+    "ap": 0.18983385684388243,
+    "aurc": 0.022415846835926134
+   },
+   "entropy": {
+    "auroc": 0.7745373195037625,
+    "ap": 0.2076375653064842,
+    "aurc": 0.02260351406768135
+   },
+   "energy": {
+    "auroc": 0.7164368517388652,
+    "ap": 0.14879475813230408,
+    "aurc": 0.03130557054657257
+   },
+   "xmodal_jsd": {
+    "auroc": 0.9426750728764152,
+    "ap": 0.5547063074363463,
+    "aurc": 0.006799180260412963
+   }
+  },
+  "MNL": {
+   "rate": 0.07083333333333333,
+   "validity": {
+    "auroc": 0.9112621999472434,
+    "ap": 0.30966146639059006,
+    "aurc": 0.00895298935838239
+   },
+   "knn_only": {
+    "auroc": 0.9161039303613823,
+    "ap": 0.32203126237054824,
+    "aurc": 0.009383204232618196
+   },
+   "1-msp": {
+    "auroc": 0.7742706409918227,
+    "ap": 0.19305697825789792,
+    "aurc": 0.023417674238359134
+   },
+   "entropy": {
+    "auroc": 0.7801925613294646,
+    "ap": 0.20301226133833333,
+    "aurc": 0.023001822222493164
+   },
+   "energy": {
+    "auroc": 0.7212793458190451,
+    "ap": 0.1554060367749201,
+    "aurc": 0.030799378699923104
+   },
+   "xmodal_jsd": {
+    "auroc": 0.9494566077552097,
+    "ap": 0.5951049185239141,
+    "aurc": 0.006669964808878555
+   }
+  }
+ },
+ "atyp": {
+  "PDF": {
+   "frac": 0.355,
+   "n": 142,
+   "native_flag": 96.47887323943662,
+   "gated_flag": 97.88732394366197,
+   "native_rest": 100.0,
+   "gated_rest": 100.0,
+   "beta_flag": 0.9027419066501347
+  },
+  "MNL": {
+   "frac": 0.355,
+   "n": 142,
+   "native_flag": 97.1830985915493,
+   "gated_flag": 97.88732394366197,
+   "native_rest": 100.0,
+   "gated_rest": 100.0,
+   "beta_flag": 0.9027419066501347
+  }
+ },
+ "time": {
+  "PDF": 619.4996106624603,
+  "MNL": 1013.5934784412384,
+  "total": 1643.3375928401947
+ }
+}
